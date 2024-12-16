@@ -1,0 +1,7 @@
+Don't need to worry about the forwarding unit.
+should run like a normal mips program but it just
+reads the instructions.
+
+
+Implement ex hazard protocol.
+Implement mem hazard protocol.
