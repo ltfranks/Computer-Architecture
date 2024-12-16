@@ -1,0 +1,28 @@
+fw file1 file 2...
+fw -n 100 file1 file2..
+// 100 is just some arbitrary #
+// "-n #" print # most words
+
+memory allocation
+
+read only alphabetical char... skip others
+convert all uppercase to lowercase to make all same
+if given a string "ab$kr"
+the words from that are
+ab
+kr
+
+hashmap to keep track of words, values
+- section 6.6 in textbook
+
+sort output for ex: top 10 words
+
+
+definition for Node NodePt2
+typedef struct lnode * Nodeptr;
+typedef struct lnode{
+    char * word;
+    int count;
+    nodePtr next;} Node
+
+
